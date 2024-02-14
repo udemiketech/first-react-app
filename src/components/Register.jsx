@@ -14,7 +14,7 @@ function Register() {
     e.preventDefault();
 
     try{
-      const res = await fetch(`http://localhost:3000/api/users`, {
+      const res = await fetch(`https://startweb-feedback-api.onrender.com/api/users`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
