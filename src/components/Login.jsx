@@ -47,6 +47,8 @@ function Login() {
             </div>
             <Button type="submit">Login</Button>
         </form>
+
+        <Link to="/register">Register</Link>
     </Card>
   )
 }
