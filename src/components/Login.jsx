@@ -1,7 +1,7 @@
 import Button from "../shared/Button"
 import Card from "../shared/card"
 import { useState } from "react"
-import { useNavigate } from "react-router-dom"
+import { useNavigate, Link } from "react-router-dom"
 import { useAuth } from "../context/AuthContext"
 import useLocalStorage from "../hooks/useLocalStorage"
 
